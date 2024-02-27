@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.2.0](https://github.com/TigerInYourDream/revm/compare/revm-v6.1.0...revm-v6.2.0) - 2024-02-27
+
+### Added
+- add with_handler method to EvmBuilder ([#1124](https://github.com/TigerInYourDream/revm/pull/1124))
+
+### Other
+- add ToString for no_std add exports some types in no_std ([#1128](https://github.com/TigerInYourDream/revm/pull/1128))
+- Add `clone` method to `ContextWithHandlerCfg` ([#1127](https://github.com/TigerInYourDream/revm/pull/1127))
+- remove unused EvmInstructionTables type alias ([#1123](https://github.com/TigerInYourDream/revm/pull/1123))
+
 ## [6.1.0](https://github.com/bluealloy/revm/compare/revm-v6.0.0...revm-v6.1.0) - 2024-02-22
 
 ### Added
